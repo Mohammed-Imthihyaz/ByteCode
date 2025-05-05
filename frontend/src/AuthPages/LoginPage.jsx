@@ -75,7 +75,7 @@ const LoginPage = () => {
             </Link>
             <motion.button
               type="button"
-              onClick={() => login("mohammedimthihyaz@gmail.com", "Sabana112233")}
+              onClick={() => login("mohammedimthihyaz@gmail.com", "Sabana112233@")}
               className="flex w-full justify-center rounded-md bg-gray-700 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-gray-600 transition-all mt-4"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
