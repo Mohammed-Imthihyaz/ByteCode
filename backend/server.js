@@ -11,13 +11,12 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5001;
 
-// ✅ Allow only your Vercel frontend and localhost
 const allowedOrigins = [
   "https://byte-code-yt22-git-main-mohammed-imthihyazs-projects.vercel.app",
   "http://localhost:5173"
 ];
 
-// ✅ CORS setup
+
 app.use(
   cors({
     origin: function (origin, callback) {
