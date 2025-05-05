@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 
 const allowedOrigins = [
-  "https://byte-code-yt22-git-main-mohammed-imthihyazs-projects.vercel.app",
+  "https://byte-code-yt22-ajvyfelw4-mohammed-imthihyazs-projects.vercel.app",
   "http://localhost:5173"
 ];
 
